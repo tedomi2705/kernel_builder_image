@@ -11,6 +11,7 @@ RUN apt update && \
         ccache \
         flex \
         git \
+	cpio \
         libelf-dev \
         libssl-dev && \
     apt clean && \
