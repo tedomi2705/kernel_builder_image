@@ -9,6 +9,7 @@ RUN apt update && \
         build-essential \
         ca-certificates \
         ccache \
+        cpio \
         flex \
         git \
         libelf-dev \
