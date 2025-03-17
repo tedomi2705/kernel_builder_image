@@ -13,7 +13,8 @@ RUN apt update && \
         flex \
         git \
         libelf-dev \
-        libssl-dev && \
+        libssl-dev \
+        zip && \
     apt clean && \
     rm -rf /var/lib/apt/lists/*
 
